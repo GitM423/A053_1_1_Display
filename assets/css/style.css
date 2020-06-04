@@ -1,0 +1,32 @@
+*{
+    margin:0;
+}
+
+body{
+    background: #cccccc;
+}
+
+button{
+    display: block;
+    height:50px;
+    width: 300px;
+    background: #333333;
+    color: #ffffff;
+    margin: 100px auto;
+}
+
+button:hover{
+    background: navy;
+}
+
+img{
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+button:hover ~img{
+    height: initial;
+    width: initial;
+    margin: 100px auto 0;
+}
